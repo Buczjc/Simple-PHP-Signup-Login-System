@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.main_signup_page {
+    width: 100%;
+    min-height: 100svh;
+    background-color: #000000;
+}
+
+.header_sample {
+    width: 100%;
+    height: 7svh;
+    border: 1px solid #ffffff;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.image_logo_container {
+    width: 60px;
+    height: 100%;
+    object-fit:contain;
+}
+
+.image_logo_container img {
+    width: 100%;
+    height: 100%;
+}
+
+.section_form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.section_form_header{
+    
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section_form_header h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.3em;
+    margin-bottom: 10px;
+}
+
+.section_form_header a {
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.section_form_header a:hover {
+    color: blue;
+}
+
+
+.form_card_container label {
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: block;
+  margin-bottom: 5px;
+  font-size: small;
+}
+
+.form_card_container input {
+    padding: 15px 40px;
+    background-color: #000000;
+    border: #ffffff 1px solid;
+    margin-bottom: 20px;
+    
+}
+
+.submit_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.submit_container button {
+    color: black;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+/*HOME PAGE CSS*/
+.main_page {
+    width: 100%;
+    min-height: 100svh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main_content h1 {
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.main_content p {
+    font-size: 2rem;
+}
+
+.log-out_container a {
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  padding: 5px 30px;
+}
+.log-out_container a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+
+/*ERROR MESSAGE CSS*/
+#ERROR_MSG_VALIDATION_DESIGN, .input_field_missing_container_msg {
+    color: red;
+    font-size: xx-small;
+    font-family: "DM Sans", sans-serif;
+    text-transform: uppercase;
+}
